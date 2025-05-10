@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.factura-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    text-align: center;
+    color: #f49ac2;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.empresa {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.empresa-datos {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.empresa-datos td {
+    padding: 8px;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.cliente {
+    margin-bottom: 30px;
+}
+
+.cliente table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cliente td {
+    padding: 8px;
+    text-align: left;
+}
+
+.productos {
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+}
+
+.productos th, .productos td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.productos th {
+    background-color: #f2f2f2;
+}
+
+.totales {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 100%; /
+}
+
+.totales table {
+    width: 30%;
+    border-collapse: collapse;
+}
+
+.totales td {
+    padding: 8px;
+    text-align: left;
+}
+
+.totales td:first-child {
+    font-weight: bold;
+}
+
+.informacion-adicional {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    text-align: left;
+}
+
+.gracias {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f49ac2;
+}
