@@ -156,7 +156,7 @@
 
         <button type="submit" class="btn btn-primary">Generar Factura</button>
         <footer>
-            <center>Patricia Lapuerta</center>
+            <center>Patricia Lapuerta | Bruno Tobar</center>
         </footer>
         </form>
     </div>
